@@ -7,11 +7,11 @@
 			var bg = $(this).data("background");
 			if( retina ){
 				var retinabg = bg.replace(".jpg","@2x.jpg");
-				$(this).css("background-image","url("+retinabg+")");	
+				$(this).css("background-image","url("+retinabg+")");
 			} else{
 				$(this).css("background-image","url("+bg+")");
 			}
-			
+
 		});
 
 		$("[data-bg-color]").each(function(){
@@ -33,7 +33,7 @@
 
 		var eventCarousel = $(".event-carousel");
 		eventCarousel.owlCarousel({
- 
+
 			autoPlay: 3000, //Set AutoPlay to 3 seconds
 			rewindNav: false,
 			items : 4,
@@ -112,10 +112,10 @@
 					options: {
 						maxZoom: 14,
 						scrollwheel: false
-					}  
+					}
 				},
 				marker:{
-					address: "40 Sibley St, Detroit",
+					address: "Antonio Hernandez Gallegos 431 Aguascalientes mexico",
 				}
 			},
 			"autofit" );
