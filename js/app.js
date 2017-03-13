@@ -115,7 +115,7 @@
 					}
 				},
 				marker:{
-					address: "Antonio Hernandez Gallegos 431 Aguascalientes mexico",
+					address: "Manuel M. Ponce 106, Barrio de San Marcos, Aguascalientes, Mx",
 				}
 			},
 			"autofit" );

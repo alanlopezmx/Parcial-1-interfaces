@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 	<head>
 		<meta charset="UTF-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1">
 
-		<title>Gallery | Band Template</title>
-		<!-- Loading third party fonts -->
+		<title>Juilliard Music School - Galeria</title>
 		<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,900" rel="stylesheet" type="text/css">
 		<link href="fonts/font-awesome.min.css" rel="stylesheet" type="text/css">
-		<!-- Loading main css file -->
 		<link rel="stylesheet" href="style.css">
 
 		<!--[if lt IE 9]>
@@ -31,12 +29,11 @@
 					<nav class="main-navigation">
 						<button type="button" class="toggle-menu"><i class="fa fa-bars"></i></button>
 						<ul class="menu">
-							<li class="menu-item"><a href="index.html">Home</a></li>
-							<li class="menu-item"><a href="about.html">About</a></li>
-							<li class="menu-item current-menu-item"><a href="gallery.html">Gallery</a></li>
-							<li class="menu-item"><a href="download.html">Download</a></li>
-							<li class="menu-item"><a href="blog.html">Blog</a></li>
-							<li class="menu-item"><a href="contact.html">Contact</a></li>
+							<li class="menu-item"><a href="index.html">Principal</a></li>
+							<li class="menu-item"><a href="about.html">Conocenos</a></li>
+							<li class="menu-item current-menu-item"><a href="gallery.html">Galeria</a></li>
+							<li class="menu-item"><a href="professor.html">Profesores</a></li>
+							<li class="menu-item"><a href="contact.html">Contacto</a></li>
 						</ul> <!-- .menu -->
 					</nav> <!-- .main-navigation -->
 					<div class="mobile-menu"></div>
@@ -48,32 +45,65 @@
 					<div class="container">
 						<div class="content fullwidth">
 							<h2 class="entry-title"><br>Galeria</h2>
+							<div class="filter-links filterable-nav">
+ 								<select class="mobile-filter">
+ 									<option value="*">Mostrar Todo</option>
+ 									<option value=".band">Instalaciones</option>
+ 									<option value=".stuff">Varios</option>
+ 								</select>
+ 								<a href="#" class="current" data-filter="*">Mostrar Todo</a>
+ 								<a href="#" data-filter=".band">Instalaciones</a>
+ 								<a href="#" data-filter=".stuff">Varios</a>
+ 							</div>
 							<div class="filterable-items">
-								<div class="filterable-item concert">
-									<a href="dummy/large-gallery/gallery-1.jpg"><figure><img src="dummy/gallery-1.jpg" alt="gallery 1"></figure></a>
-								</div>
-								<div class="filterable-item concert">
-									<a href="dummy/large-gallery/gallery-2.jpg"><figure><img src="dummy/gallery-2.jpg" alt="gallery 2"></figure></a>
-								</div>
-								<div class="filterable-item stuff">
-									<a href="dummy/large-gallery/gallery-3.jpg"><figure><img src="dummy/gallery-3.jpg" alt="gallery 3"></figure></a>
-								</div>
-								<div class="filterable-item concert">
-									<a href="dummy/large-gallery/gallery-4.jpg"><figure><img src="dummy/gallery-4.jpg" alt="gallery 4"></figure></a>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-1.jpg"><figure><img src="images/gallery-1.jpg" alt="Gallery 1"></figure></a>
 								</div>
 								<div class="filterable-item band">
-									<a href="dummy/large-gallery/gallery-5.jpg"><figure><img src="dummy/gallery-5.jpg" alt="gallery 5"></figure></a>
-								</div>
-								<div class="filterable-item stuff">
-									<a href="dummy/large-gallery/gallery-6.jpg"><figure><img src="dummy/gallery-6.jpg" alt="gallery 6"></figure></a>
-								</div>
-								<div class="filterable-item concert">
-									<a href="dummy/large-gallery/gallery-7.jpg"><figure><img src="dummy/gallery-7.jpg" alt="gallery 7"></figure></a>
+									<a href="images/large-gallery/gallery-2.jpg"><figure><img src="images/gallery-2.jpg" alt="Gallery 2"></figure></a>
 								</div>
 								<div class="filterable-item band">
-									<a href="dummy/large-gallery/gallery-8.jpg"><figure><img src="dummy/gallery-8.jpg" alt="gallery 8"></figure></a>
+									<a href="images/large-gallery/gallery-3.jpg"><figure><img src="images/gallery-3.jpg" alt="Gallery 3"></figure></a>
 								</div>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-4.jpg"><figure><img src="images/gallery-4.jpg" alt="Gallery 4"></figure></a>
 								</div>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-5.jpg"><figure><img src="images/gallery-5.jpg" alt="Gallery 5"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-6.jpg"><figure><img src="images/gallery-6.jpg" alt="Gallery 6"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-7.jpg"><figure><img src="images/gallery-7.jpg" alt="Gallery 7"></figure></a>
+								</div>
+								<div class="filterable-item band">
+									<a href="images/large-gallery/gallery-8.jpg"><figure><img src="images/gallery-8.jpg" alt="Gallery 8"></figure></a>
+								</div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-9.jpg">
+										<figure><img src="images/gallery-9.jpg" alt="Gallery 9"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-10.jpg">
+										<figure><img src="images/gallery-10.jpg" alt="Gallery 10"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-11.jpg">
+										<figure><img src="images/gallery-11.jpg" alt="Gallery 11"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-12.jpg">
+										<figure><img src="images/gallery-12.jpg" alt="Gallery 12"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-13.jpg">
+										<figure><img src="images/gallery-13.jpg" alt="Gallery 13"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-14.jpg">
+										<figure><img src="images/gallery-14.jpg" alt="Gallery 14"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-15.jpg">
+										<figure><img src="images/gallery-15.jpg" alt="Gallery 15"></figure>
+									</a></div>
+								<div class="filterable-item stuff"><a href="images/large-gallery/gallery-16.jpg">
+										<figure><img src="images/gallery-16.jpg" alt="Gallery 16"></figure>
+									</a></div>
 							</div>
 						</div>
 					</div>
@@ -84,15 +114,17 @@
 
 			<footer class="site-footer">
 				<div class="container">
-					<img src="dummy/logo-footer.png" alt="Site Name">
+					<div class="branding-footer">
+						Juilliard Music School
+					</div>
 
 					<address>
-						<p>495 Brainard St. Detroit, MI 48201 <br><a href="tel:354543543">(563) 429 234 890</a> <br> <a href="mailto:info@bandname.com">info@bandname.com</a></p>
+						<p>Manuel M. Ponce 106, Barrio de San Marcos, Aguascalientes, Mx  <br><a href="tel:4499064634"> 449 906 4622</a> <br> <a href="mailto:juilliard@fake.com">juilliard@fake.com</a></p>
 					</address>
 
 					<form action="#" class="newsletter-form">
-						<input type="email" placeholder="Enter your email to join newsletter...">
-						<input type="submit" class="button cut-corner" value="Subscribe">
+						<input type="email" placeholder="Ingresa tu correo para recibir noticias...">
+						<input type="submit" class="button cut-corner" value="Suscribete">
 					</form> <!-- .newsletter-form -->
 
 					<div class="social-links">
@@ -102,7 +134,7 @@
 						<a href="#"><i class="fa fa-pinterest"></i></a>
 					</div> <!-- .social-links -->
 
-					<p class="copy">Copyright 2014 Company Name. Designed by Themezy. All right reserved</p>
+					<p class="copy">Copyright 2017 Juilliard Music School. Diseñador por Alan Lopez. Todos los derechos reservados.</p>
 				</div>
 			</footer> <!-- .site-footer -->
 
